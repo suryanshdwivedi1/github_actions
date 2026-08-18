@@ -1,6 +1,7 @@
 name: Building Blocks
 
-on: push
+on:
+    workflow_dispatch:
 
 jobs:
     echo-hello:
@@ -18,4 +19,4 @@ jobs:
             
             - name: Say Goodbye
               run: echo "Goodbye World!"
-
+              
